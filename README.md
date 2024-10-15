@@ -1,5 +1,6 @@
-- This is for Vu23215 AT2 Part2 Activity5 - questions e and f
-- Download the [Python file](https://github.com/kaledaljebur/syn-denial-of-service-attack/blob/main/dos.py) into Kali's Desktop
+- This is for Vu23215 AT2 Part2 Activity5 - questions e and f.
+- Download the [Python file](https://github.com/kaledaljebur/syn-denial-of-service-attack/blob/main/dos.py) into Kali's Desktop.
+    - You may try right click on the link, then select ***Save link as...***
 - Implement the following:
     - cd Desktop
     - sudo python ./dos.py 192.168.1.2 192.168.1.200 80 10
