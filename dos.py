@@ -3,11 +3,11 @@ from scapy.all import *
 errorMessage= """
 Not correct number of arguments, follow the below example:
 - sudo python ./dos.py 192.168.1.2 192.168.1.200 80 10
-    - Notice:
-        - sudo python ./dos.py is to run the file.
-        - 192.168.1.2 is the attacker or fake IP.
-        - 192.168.1.200 is victim IP.
-        - 10 number of attacking packets (small number for quick testing). 
+- Notice:
+    - sudo python ./dos.py is to run the file.
+    - 192.168.1.2 is the attacker or fake IP.
+    - 192.168.1.200 is victim IP.
+    - 10 number of attacking packets (small number for quick testing). 
 """
 if len(sys.argv) != 5:
 	# This message will be printed if the command arguments are less than five
